@@ -1,3 +1,8 @@
+using System.ComponentModel.Design.Serialization;
+using System.IO;
+using System.Text.Json;
+using System.Text.Json.Nodes;
+using System.Text.Json.Serialization;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -19,7 +24,23 @@ app.UseHttpsRedirection();
 app.MapGet("/Creat_task/{NAME}", (String NAME) =>
 {
     Console.WriteLine(NAME);
-    return Results.Ok($"{NAME}");
+    var data_r = new StreamReader("data.txt");
+    String data = data_r.ReadToEnd();
+        data_r.Close();
+    data +=data==""? $"\"{NAME}\"":$",\"{NAME}\"";
+
+   var data_w = new StreamWriter("data.txt");
+    data_w.Write(data);
+    data_w.Close();
+    return Results.Ok();
+});
+app.MapGet("/List_task", () =>
+{
+    var data_r = new StreamReader("data.txt");
+        String data = data_r.ReadToEnd();
+
+        data_r.Close();
+    return ("{[" +data+ "]}");
 });
 
 app.Run();

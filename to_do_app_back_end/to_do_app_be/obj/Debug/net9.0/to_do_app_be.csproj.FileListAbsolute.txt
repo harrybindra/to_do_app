@@ -27,3 +27,32 @@ C:\Users\harry\Desktop\Informàtica industrial\expo\to_do_app_back_end\to_do_app
 C:\Users\harry\Desktop\Informàtica industrial\expo\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\to_do_app_be.pdb
 C:\Users\harry\Desktop\Informàtica industrial\expo\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\to_do_app_be.genruntimeconfig.cache
 C:\Users\harry\Desktop\Informàtica industrial\expo\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\ref\to_do_app_be.dll
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\bin\Debug\net9.0\appsettings.json
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\bin\Debug\net9.0\to_do_app_be.staticwebassets.endpoints.json
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\bin\Debug\net9.0\to_do_app_be.exe
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\bin\Debug\net9.0\to_do_app_be.deps.json
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\bin\Debug\net9.0\to_do_app_be.runtimeconfig.json
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\bin\Debug\net9.0\to_do_app_be.dll
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\bin\Debug\net9.0\to_do_app_be.pdb
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\to_do_app_be.csproj.AssemblyReference.cache
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\to_do_app_be.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\to_do_app_be.AssemblyInfoInputs.cache
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\to_do_app_be.AssemblyInfo.cs
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\to_do_app_be.csproj.CoreCompileInputs.cache
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\to_do_app_be.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\to_do_app_be.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\to_do_app_be.sourcelink.json
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\scopedcss\bundle\to_do_app_be.styles.css
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\to_do_ap.21FC5428.Up2Date
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\to_do_app_be.dll
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\refint\to_do_app_be.dll
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\to_do_app_be.pdb
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\to_do_app_be.genruntimeconfig.cache
+C:\Users\harry\Desktop\Informàtica_industrial\expo\github_repo\to_do_app\to_do_app_back_end\to_do_app_be\obj\Debug\net9.0\ref\to_do_app_be.dll
