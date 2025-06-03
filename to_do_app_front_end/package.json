@@ -9,17 +9,24 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~5.0.4",
+    "@expo/ui": "~0.1.1-alpha.7",
     "expo": "~53.0.9",
+    "expo-device": "~7.1.4",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
-    "react-native": "0.79.2",
-    "@expo/ui": "~0.1.1-alpha.7",
     "react-dom": "19.0.0",
+    "react-native": "0.79.2",
     "react-native-web": "^0.20.0",
-    "@expo/metro-runtime": "~5.0.4"
+    "react-native-webview": "13.13.5"
   },
+  "proxy": "http://192.168.18.132/",
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "typescript": "~5.8.3",
+    "@types/react": "~19.0.10"
   },
   "private": true
 }

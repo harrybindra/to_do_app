@@ -22,7 +22,7 @@ const resp = await fetch(baseurl+'Creat_task/'+TaskName, {
     method:"GET"
 });
 
-            console.log(resp.status);
+            console.log(resp.body);
 
       onTaskCreat();
   };
@@ -77,5 +77,7 @@ const styles = StyleSheet.create({
     marginTop: "70%",
     backgroundColor: "#fff",
     alignItems: "center",
+       width:"100%",
+     height:"100%",
   },
 });

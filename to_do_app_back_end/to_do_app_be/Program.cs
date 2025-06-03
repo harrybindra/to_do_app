@@ -35,12 +35,13 @@ app.MapGet("/Creat_task/{NAME}", (String NAME) =>
     return Results.Ok();
 });
 app.MapGet("/List_task", () =>
-{
+{ Console.WriteLine("List_task");
     var data_r = new StreamReader("data.txt");
         String data = data_r.ReadToEnd();
 
         data_r.Close();
-    return ("{[" +data+ "]}");
+
+          return"{\"List\":[" + data + "]}";
 });
 
 app.Run();

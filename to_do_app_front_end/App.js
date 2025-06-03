@@ -2,7 +2,8 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, TouchableHighlight } from "react-native";
 import CreatTask from "./pages/creat/creat";
 import { useEffect, useState } from "react";
-import SeeList from "./pages/list/list";
+import SeeList from "./pages/list/list.js";
+import { deviceType, DeviceType } from "expo-device";
 
 export default function App() {
   const [Tabe, SetTab] = useState(0);
@@ -14,45 +15,45 @@ export default function App() {
   };
 
   return (
-    <View>
-      <View style={{ display: Tabe == 1 ? "" : "none" }}>
-        <CreatTask  onTaskCancel={onListChange} onTaskCreat={onListChange} ></CreatTask>
-      </View>
-      <View style={{display:Tabe==1?"":"none"}}>
-        <SeeList></SeeList>
-      </View>
-      <View style={styles.container}>
-        <TouchableHighlight style={styles.Button_List} onPress={onListChange}>
-          <Text>List</Text>
-        </TouchableHighlight>
+    <View> <View>
         <TouchableHighlight style={styles.Button_Creat} onPress={onCreatChange}>
-          <Text>Creat</Text>
+          <Text
+            style={{
+              fontSize: 20,
+            }}
+          >
+            +
+          </Text>
         </TouchableHighlight>
       </View>
+      {Tabe == 0 ? (
+        <SeeList></SeeList>
+      ) : (
+        <CreatTask
+          onTaskCancel={onListChange}
+          onTaskCreat={onListChange}
+        ></CreatTask>
+      )}
+     
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-
-  Button_List: {
-    alignItems: "baseline",
-    backgroundColor: "#DDDDDD",
-    padding: 15,
-    position: "absolute",
-      width:"50%",
-    marginTop: "80%",
-    marginLeft: "-1%",
-    alignItems: "center",
+  container: {
+    width: "100%",
+    height: "100%",
+    backgroundColor: "rgb(255, 255, 255)",
   },
+
   Button_Creat: {
-    alignItems: "baseline",
-    backgroundColor: "#DDDDDD",
-    padding: 15,
-    width:"50%",
-    marginTop: "80%",
-    marginLeft: "51%",
+    zIndex:10,
     position: "absolute",
+    backgroundColor: "#DDDDDD",
+  width: "95%",
+    marginTop: "190%",
+    padding: "30",
+    marginLeft: "2.5%",
     alignItems: "center",
   },
 });
