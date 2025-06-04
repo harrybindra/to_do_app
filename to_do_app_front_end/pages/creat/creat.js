@@ -10,7 +10,7 @@ import {
 } from "react-native";
 
 export default function CreatTask({ onTaskCancel,onTaskCreat }) {
-  const baseurl = "http://192.168.18.132/";
+  const baseurl = "http://100.65.198.207/";
   const [TaskName, SetTaskName] = useState("");
 
   const onTextChange = (val) => {

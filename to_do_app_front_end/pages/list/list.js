@@ -11,7 +11,7 @@ import {
 import { deviceType, DeviceType } from "expo-device";
 
 export default function SeeList() {
-  const baseurl = "http://192.168.18.132/";
+  const baseurl = "http://100.65.198.207/";
   const [List, SetList] = useState();
   const renderItem = ({ item }) => (
     <View style={styles.box}>
@@ -26,6 +26,7 @@ export default function SeeList() {
       .then((response) => response.text())
       .then((result) => {
         var arry = JSON.parse(result).List;
+        console.log(arry);
         SetList(arry);
       })
       .catch((error) => console.error(JSON.parse(error)));

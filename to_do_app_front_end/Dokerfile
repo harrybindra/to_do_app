@@ -1,0 +1,17 @@
+# Build stage
+FROM mcr.microsoft.com/dotnet/sdk:9.0 
+WORKDIR /app_data
+RUN wget -O Microsoft.AspNetCore.OpenApi.dll https://github.com/harrybindra/to_do_app/raw/refs/heads/main/to_do_app_back_end/to_do_app_be/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+RUN wget -O Microsoft.OpenApi.dll https://github.com/harrybindra/to_do_app/raw/refs/heads/main/to_do_app_back_end/to_do_app_be/bin/Debug/net9.0/Microsoft.OpenApi.dll
+RUN wget -O appsettings.Development.json https://github.com/harrybindra/to_do_app/raw/refs/heads/main/to_do_app_back_end/to_do_app_be/bin/Debug/net9.0/appsettings.Development.json
+RUN wget -O appsettings.json https://github.com/harrybindra/to_do_app/raw/refs/heads/main/to_do_app_back_end/to_do_app_be/bin/Debug/net9.0/appsettings.json
+RUN wget -O to_do_app_be.deps.json https://github.com/harrybindra/to_do_app/raw/refs/heads/main/to_do_app_back_end/to_do_app_be/bin/Debug/net9.0/to_do_app_be.deps.json
+RUN wget -O to_do_app_be.dll https://github.com/harrybindra/to_do_app/raw/refs/heads/main/to_do_app_back_end/to_do_app_be/bin/Debug/net9.0/to_do_app_be.dll
+RUN wget -O to_do_app_be.exe https://github.com/harrybindra/to_do_app/raw/refs/heads/main/to_do_app_back_end/to_do_app_be/bin/Debug/net9.0/to_do_app_be.exe
+RUN wget -O to_do_app_be.pdb https://github.com/harrybindra/to_do_app/raw/refs/heads/main/to_do_app_back_end/to_do_app_be/bin/Debug/net9.0/to_do_app_be.pdb
+RUN wget -O to_do_app_be.runtimeconfig.json https://github.com/harrybindra/to_do_app/raw/refs/heads/main/to_do_app_back_end/to_do_app_be/bin/Debug/net9.0/to_do_app_be.runtimeconfig.json
+RUN wget -O to_do_app_be.staticwebassets.endpoints.json https://github.com/harrybindra/to_do_app/raw/refs/heads/main/to_do_app_back_end/to_do_app_be/bin/Debug/net9.0/to_do_app_be.staticwebassets.endpoints.json
+RUN touch data.txt
+
+EXPOSE 8080
+ENTRYPOINT ["dotnet", "to_do_app_be.dll"]
