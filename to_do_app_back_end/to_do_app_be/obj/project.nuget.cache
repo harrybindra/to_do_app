@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qCz5/v7H0yU=",
+  "dgSpecHash": "rSr7lx+jLyg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\harry\\Desktop\\Informàtica_industrial\\expo\\to_do_app_back_end\\to_do_app_be\\to_do_app_be.csproj",
+  "projectFilePath": "C:\\Users\\harry\\Desktop\\Informàtica_industrial\\expo\\github_repo\\to_do_app\\to_do_app_back_end\\to_do_app_be\\to_do_app_be.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\harry\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
     "C:\\Users\\harry\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",

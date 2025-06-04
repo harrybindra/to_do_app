@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\harry\\Desktop\\Informàtica_industrial\\expo\\to_do_app_back_end\\to_do_app_be\\to_do_app_be.csproj": {}
+    "C:\\Users\\harry\\Desktop\\Informàtica_industrial\\expo\\github_repo\\to_do_app\\to_do_app_back_end\\to_do_app_be\\to_do_app_be.csproj": {}
   },
   "projects": {
-    "C:\\Users\\harry\\Desktop\\Informàtica_industrial\\expo\\to_do_app_back_end\\to_do_app_be\\to_do_app_be.csproj": {
+    "C:\\Users\\harry\\Desktop\\Informàtica_industrial\\expo\\github_repo\\to_do_app\\to_do_app_back_end\\to_do_app_be\\to_do_app_be.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\harry\\Desktop\\Informàtica_industrial\\expo\\to_do_app_back_end\\to_do_app_be\\to_do_app_be.csproj",
+        "projectUniqueName": "C:\\Users\\harry\\Desktop\\Informàtica_industrial\\expo\\github_repo\\to_do_app\\to_do_app_back_end\\to_do_app_be\\to_do_app_be.csproj",
         "projectName": "to_do_app_be",
-        "projectPath": "C:\\Users\\harry\\Desktop\\Informàtica_industrial\\expo\\to_do_app_back_end\\to_do_app_be\\to_do_app_be.csproj",
+        "projectPath": "C:\\Users\\harry\\Desktop\\Informàtica_industrial\\expo\\github_repo\\to_do_app\\to_do_app_back_end\\to_do_app_be\\to_do_app_be.csproj",
         "packagesPath": "C:\\Users\\harry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\harry\\Desktop\\Informàtica_industrial\\expo\\to_do_app_back_end\\to_do_app_be\\obj\\",
+        "outputPath": "C:\\Users\\harry\\Desktop\\Informàtica_industrial\\expo\\github_repo\\to_do_app\\to_do_app_back_end\\to_do_app_be\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
