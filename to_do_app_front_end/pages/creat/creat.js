@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import { fetch } from 'expo/fetch';
+import { useState } from "react";
 
 import {
   StyleSheet,
@@ -10,7 +9,7 @@ import {
 } from "react-native";
 
 export default function CreatTask({ onTaskCancel,onTaskCreat }) {
-  const baseurl = "http://100.65.198.207/";
+  const baseurl ="https://ha.harrycheemaserver.uk/";
   const [TaskName, SetTaskName] = useState("");
 
   const onTextChange = (val) => {
@@ -75,7 +74,6 @@ const styles = StyleSheet.create({
   },
   contaner: {
     marginTop: "70%",
-    backgroundColor: "#fff",
     alignItems: "center",
        width:"100%",
      height:"100%",

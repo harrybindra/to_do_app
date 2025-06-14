@@ -2,16 +2,13 @@ import { useEffect, useState } from "react";
 
 import {
   StyleSheet,
-  TextInput,
-  TouchableHighlight,
   Text,
   View,
   FlatList,
 } from "react-native";
-import { deviceType, DeviceType } from "expo-device";
 
 export default function SeeList() {
-  const baseurl = "http://100.65.198.207/";
+  const baseurl = "https://ha.harrycheemaserver.uk/";
   const [List, SetList] = useState();
   const renderItem = ({ item }) => (
     <View style={styles.box}>

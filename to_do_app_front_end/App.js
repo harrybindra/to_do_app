@@ -1,9 +1,7 @@
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, TouchableHighlight } from "react-native";
 import CreatTask from "./pages/creat/creat";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import SeeList from "./pages/list/list.js";
-import { deviceType, DeviceType } from "expo-device";
 
 export default function App() {
   const [Tabe, SetTab] = useState(0);
